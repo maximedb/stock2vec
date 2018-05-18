@@ -1,0 +1,31 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Stock2vec GloVe Covariance",
+      "tensorShape": [
+        7544,
+        300
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/glove_cov_tensors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/metadata.tsv"
+    },
+    {
+      "tensorName": "Stock2vec GloVe Correlation",
+      "tensorShape": [
+        7544,
+        300
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/glove_cor_tensors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/metadata.tsv"
+    },
+    {
+      "tensorName": "Stock2vec Skip Gram",
+      "tensorShape": [
+        7544,
+        300
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/skip_tensors.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/maximedb/stock2vec/master/embeddings/metadata.tsv"
+    }
+  ]
+}
