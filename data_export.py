@@ -32,4 +32,4 @@ metadata = holdings.loc[selector, cols]
 metadata.to_csv('assets/metadata.tsv', sep='\t')
 cols = ['Name', 'Currency']
 metadata = holdings.loc[selector, cols]
-metadata.to_csv('embeddings/metadata.tsv', sep='\t')
+metadata.to_csv('embeddings/metadata.tsv', sep='\t', index=False)
